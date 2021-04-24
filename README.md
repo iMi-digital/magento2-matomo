@@ -37,7 +37,10 @@ NOTE: If you're using a Magento version prior to 2.2 you'll need to stick to the
 Once installed, configuration options can be found in the Magento 2 administration panel under *Stores/Configuration/Sales/Matomo API*.
 To start tracking, set *Enable Tracking* to *Yes*, enter the *Hostname* of your Matomo installation and click *Save Config*. If you have multiple websites in the same Matomo installation, make sure the *Site ID* configured in Magento is correct.
 
-You can use the Matomo Tag manager instead of Matomo directly. Set the configuration *Enable Matomo Tag Manager Container* to yes and set the *Container Script Path*.
+### Using Matomo Tag Manager
+
+You can use the Matomo Tag Manager instead of Matomo directly. Set the configuration *Enable Matomo Tag Manager Container* to yes and set the *Container Script Path*.
+For details on how to configure the Matomo Tag Manager, to track ecommerce events, see doc/tag-manager.md
 
 ## Customization
 
