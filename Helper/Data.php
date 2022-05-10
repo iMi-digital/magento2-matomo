@@ -75,7 +75,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
             self::XML_PATH_HOSTNAME,
             \Magento\Store\Model\ScopeInterface::SCOPE_STORE,
             $store
-        ));
+        ) ?? '');
     }
 
     /**
@@ -90,7 +90,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
             self::XML_PATH_CDN_HOSTNAME,
             \Magento\Store\Model\ScopeInterface::SCOPE_STORE,
             $store
-        ));
+        ) ?? '');
     }
 
     /**
